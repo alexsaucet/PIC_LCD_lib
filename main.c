@@ -47,6 +47,7 @@ void main(void) {
     
     while(1)
     {
+        LCDClear();
         LCDWriteString("Hello World!"); // Write string
         LCDMoveCursor(1,0);             // Move cursor to second line
         LCDWriteChar('a');              // Write char
